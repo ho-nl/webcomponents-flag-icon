@@ -1,3 +1,8 @@
+/*
+ * Copyright © Reach Digital (https://www.reachdigital.io/)
+ * See LICENSE.txt for license details.
+ */
+
 /**
 A web component that can be used to display flags by passing country name or one of multiple codes.
 ### Example:
@@ -21,6 +26,7 @@ import '@polymer/iron-image/iron-image.js';
 import '@polymer/iron-flex-layout/iron-flex-layout.js';
 import { Polymer } from '@polymer/polymer/lib/legacy/polymer-fn.js';
 import { dom } from '@polymer/polymer/lib/legacy/polymer.dom.js';
+import { resolveUrl } from '@polymer/polymer/lib/utils/resolve-url.js';
 const $_documentContainer = document.createElement('template');
 
 $_documentContainer.innerHTML = `<dom-module id="flag-icon" class="flex">
@@ -121,6 +127,11 @@ Polymer({
     },
     file: {
       type: String
+    },
+    baseUrl: {
+      // with trailing slash
+      type: String,
+      value: '/polymer/src/webcomponents-flag-icon/'
     }
   },
   get importMeta() {  // required for this.resolveUrl
@@ -184,7 +195,7 @@ Polymer({
     if (d) {
       this.data = d.data;
       dataTitle = d.title;
-      this.set('src', this.resolveUrl('./svg/' + d.file + '.svg'));
+      this.set('src', this._computeLogoSrc('./svg/' + d.file + '.svg'));
     } else {
       this.data = null;
       dataTitle = null;
@@ -193,6 +204,14 @@ Polymer({
     var userTitle = dom(this).textContent.trim();
     this.title = userTitle.length > 0 ? userTitle : dataTitle;
   },
+
+  _computeLogoSrc(relativePath) {
+    if(this.baseUrl) {
+      return this.baseUrl + relativePath;
+    }
+    return this.resolveUrl(relativePath);
+  },
+
   created: function() {
     var countries = [{
       name: 'Afghanistan',
