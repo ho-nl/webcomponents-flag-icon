@@ -1,0 +1,82 @@
+{
+  "_from": "flag-icon@^2.5.0",
+  "_id": "flag-icon@2.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Mit72vPzyhgJ6/KjT0Bzm77Ca4ol4WjpYOzQffqrPERNy+np4j2CCPvWKsmPbM8gL1DjKejnKlDErJ8uzGBLRQ==",
+  "_location": "/flag-icon",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "flag-icon@^2.5.0",
+    "name": "flag-icon",
+    "escapedName": "flag-icon",
+    "rawSpec": "^2.5.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.5.0"
+  },
+  "_requiredBy": [
+    "/webcomponents-m2"
+  ],
+  "_resolved": "https://registry.npmjs.org/flag-icon/-/flag-icon-2.5.0.tgz",
+  "_shasum": "d5d8e8abe262954dc71ea8a55b5df671c564bf7f",
+  "_spec": "flag-icon@^2.5.0",
+  "_where": "/data/web/magento2/pub/polymer/src/webcomponents-m2",
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Steven Skelton"
+    },
+    {
+      "name": "Roman Kaufmann"
+    }
+  ],
+  "dependencies": {
+    "@polymer/iron-flex-layout": "^3.0.0-pre.18",
+    "@polymer/iron-image": "^3.0.0-pre.18",
+    "@polymer/polymer": "^3.0.0"
+  },
+  "deprecated": false,
+  "description": "Polymer Web Component for SVG icons of country, state, province and other flags",
+  "devDependencies": {
+    "@polymer/iron-component-page": "^3.0.0-pre.18",
+    "@polymer/iron-demo-helpers": "^3.0.0-pre.18",
+    "@polymer/paper-card": "^3.0.0-pre.18",
+    "@polymer/paper-input": "^3.0.0-pre.18",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "wct-browser-legacy": "^1.0.1"
+  },
+  "homepage": "https://github.com/stevenrskelton/flag-icon",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "geography",
+    "countries",
+    "world",
+    "state",
+    "provincial",
+    "territory",
+    "icon",
+    "svg",
+    "flag",
+    "maritime",
+    "nascar",
+    "indycar",
+    "racing",
+    "australia",
+    "brazil",
+    "canada",
+    "germany",
+    "spain",
+    "russia",
+    "united states"
+  ],
+  "license": "MIT",
+  "main": "flag-icon.js",
+  "name": "flag-icon",
+  "scripts": {
+    "start": "polymer serve --npm"
+  },
+  "version": "2.5.0"
+}
