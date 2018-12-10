@@ -131,7 +131,7 @@ Polymer({
     baseUrl: {
       // with trailing slash
       type: String,
-      value: '/polymer/src/webcomponents-flag-icon/'
+      value: '/polymer/node_modules/flag-icon/'
     }
   },
   get importMeta() {  // required for this.resolveUrl
