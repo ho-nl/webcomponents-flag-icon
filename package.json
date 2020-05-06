@@ -39,7 +39,7 @@
   "deprecated": false,
   "description": "Polymer Web Component for SVG icons of country, state, province and other flags",
   "devDependencies": {
-    "@polymer/iron-component-page": "^3.0.0-pre.18",
+    "@polymer/iron-component-page": "^4.0.1",
     "@polymer/iron-demo-helpers": "^3.0.0-pre.18",
     "@polymer/paper-card": "^3.0.0-pre.18",
     "@polymer/paper-input": "^3.0.0-pre.18",
