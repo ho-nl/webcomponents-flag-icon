@@ -16,6 +16,10 @@
   version "3.0.0-pre.21"
   resolved "https://registry.yarnpkg.com/@polymer/font-roboto/-/font-roboto-3.0.0-pre.21.tgz#65674464138a51f57cfdfd043e394d8fe75990b3"
 
+"@polymer/font-roboto@^3.0.1":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@polymer/font-roboto/-/font-roboto-3.0.2.tgz#80cdaa7225db2359130dfb2c6d9a3be1820020c3"
+
 "@polymer/iron-a11y-announcer@^3.0.0-pre.21":
   version "3.0.0-pre.21"
   resolved "https://registry.yarnpkg.com/@polymer/iron-a11y-announcer/-/iron-a11y-announcer-3.0.0-pre.21.tgz#717cfd1b34f281c2085ad6b45ecd724bd2ae6d84"
@@ -98,9 +102,9 @@
   dependencies:
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/iron-flex-layout@^3.0.0-pre.18", "@polymer/iron-flex-layout@^3.0.0-pre.21":
-  version "3.0.0-pre.21"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-flex-layout/-/iron-flex-layout-3.0.0-pre.21.tgz#064bccb85ec2091b66366970e8867d3de7bb273d"
+"@polymer/iron-flex-layout@^3.0.0-pre.18", "@polymer/iron-flex-layout@^3.0.0-pre.21", "@polymer/iron-flex-layout@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-flex-layout/-/iron-flex-layout-3.0.1.tgz#36f9e1a8eb792d279b2bc75d362628721ad37f0c"
   dependencies:
     "@polymer/polymer" "^3.0.0"
 
@@ -133,9 +137,9 @@
     "@polymer/iron-meta" "^3.0.0-pre.21"
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/iron-image@^3.0.0-pre.18", "@polymer/iron-image@^3.0.0-pre.21":
-  version "3.0.0-pre.21"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-image/-/iron-image-3.0.0-pre.21.tgz#0838f7699c7ad7928cbbdcca894dd3e79b3ed6f0"
+"@polymer/iron-image@^3.0.0-pre.18", "@polymer/iron-image@^3.0.0-pre.26":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-image/-/iron-image-3.0.2.tgz#425ee6269634e024dbea726a91a61724ae4402b6"
   dependencies:
     "@polymer/polymer" "^3.0.0"
 
@@ -210,12 +214,12 @@
     "@polymer/polymer" "^3.0.0"
 
 "@polymer/paper-card@^3.0.0-pre.18":
-  version "3.0.0-pre.21"
-  resolved "https://registry.yarnpkg.com/@polymer/paper-card/-/paper-card-3.0.0-pre.21.tgz#71a7b86003f9d92455407a9cc6609b08213c8ca1"
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-card/-/paper-card-3.0.1.tgz#fb5960b3e55fab56d20b7c1c3dee08f0d052ff2a"
   dependencies:
-    "@polymer/iron-flex-layout" "^3.0.0-pre.21"
-    "@polymer/iron-image" "^3.0.0-pre.21"
-    "@polymer/paper-styles" "^3.0.0-pre.21"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-image" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
     "@polymer/polymer" "^3.0.0"
 
 "@polymer/paper-icon-button@^3.0.0-pre.21":
@@ -246,12 +250,12 @@
     "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.21"
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/paper-styles@^3.0.0-pre.21":
-  version "3.0.0-pre.21"
-  resolved "https://registry.yarnpkg.com/@polymer/paper-styles/-/paper-styles-3.0.0-pre.21.tgz#9406bdb3c22c3d132086fae50079d0b5bf5c0541"
+"@polymer/paper-styles@^3.0.0-pre.21", "@polymer/paper-styles@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-styles/-/paper-styles-3.0.1.tgz#bd4962b83ab8432cd1cf197bb5222d3a08f135e1"
   dependencies:
-    "@polymer/font-roboto" "^3.0.0-pre.21"
-    "@polymer/iron-flex-layout" "^3.0.0-pre.21"
+    "@polymer/font-roboto" "^3.0.1"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
     "@polymer/polymer" "^3.0.0"
 
 "@polymer/paper-toast@^3.0.0-pre.21":
