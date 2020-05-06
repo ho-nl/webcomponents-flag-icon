@@ -264,10 +264,10 @@
     "@polymer/polymer" "^3.0.0"
 
 "@polymer/polymer@^3.0.0":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@polymer/polymer/-/polymer-3.0.5.tgz#eaa42e70df7de818b5e1839452c82a5f83e39929"
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@polymer/polymer/-/polymer-3.4.1.tgz#333bef25711f8411bb5624fb3eba8212ef8bee96"
   dependencies:
-    "@webcomponents/shadycss" "^1.2.0"
+    "@webcomponents/shadycss" "^1.9.1"
 
 "@polymer/prism-element@^3.0.0-pre.21":
   version "3.0.0-pre.21"
@@ -284,9 +284,9 @@
   version "3.0.0-pre.21"
   resolved "https://registry.yarnpkg.com/@polymer/test-fixture/-/test-fixture-3.0.0-pre.21.tgz#85152207cb0bf57caebc191c80bb0fdb6952614e"
 
-"@webcomponents/shadycss@^1.2.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@webcomponents/shadycss/-/shadycss-1.4.0.tgz#2b2b66443252f81d02ebb2dd139e4a717655bfa9"
+"@webcomponents/shadycss@^1.9.1":
+  version "1.9.6"
+  resolved "https://registry.yarnpkg.com/@webcomponents/shadycss/-/shadycss-1.9.6.tgz#a8c5db867e49200a05cf8d5008029c09b7861979"
 
 "@webcomponents/webcomponentsjs@^2.0.0":
   version "2.0.4"
