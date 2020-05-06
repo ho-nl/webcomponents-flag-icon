@@ -134,8 +134,8 @@
     "@polymer/polymer" "^3.0.0"
 
 "@polymer/iron-image@^3.0.0-pre.18", "@polymer/iron-image@^3.0.0-pre.21":
-  version "3.0.0-pre.21"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-image/-/iron-image-3.0.0-pre.21.tgz#0838f7699c7ad7928cbbdcca894dd3e79b3ed6f0"
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-image/-/iron-image-3.0.2.tgz#425ee6269634e024dbea726a91a61724ae4402b6"
   dependencies:
     "@polymer/polymer" "^3.0.0"
 
