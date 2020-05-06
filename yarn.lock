@@ -12,9 +12,9 @@
     "@polymer/iron-scroll-target-behavior" "^3.0.0-pre.21"
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/font-roboto@^3.0.0-pre.21":
-  version "3.0.0-pre.21"
-  resolved "https://registry.yarnpkg.com/@polymer/font-roboto/-/font-roboto-3.0.0-pre.21.tgz#65674464138a51f57cfdfd043e394d8fe75990b3"
+"@polymer/font-roboto@^3.0.0-pre.21", "@polymer/font-roboto@^3.0.0-pre.25":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@polymer/font-roboto/-/font-roboto-3.0.2.tgz#80cdaa7225db2359130dfb2c6d9a3be1820020c3"
 
 "@polymer/iron-a11y-announcer@^3.0.0-pre.21":
   version "3.0.0-pre.21"
@@ -72,15 +72,15 @@
     "@polymer/polymer" "^3.0.0"
 
 "@polymer/iron-demo-helpers@^3.0.0-pre.18":
-  version "3.0.0-pre.21"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-demo-helpers/-/iron-demo-helpers-3.0.0-pre.21.tgz#5b683b89d66cf79cc66f2f05916851c5f8f8c9af"
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-demo-helpers/-/iron-demo-helpers-3.1.0.tgz#89dbbc019f9200331d77c94144d8afc9920dc122"
   dependencies:
-    "@polymer/font-roboto" "^3.0.0-pre.21"
-    "@polymer/iron-flex-layout" "^3.0.0-pre.21"
-    "@polymer/iron-location" "^3.0.0-pre.21"
-    "@polymer/marked-element" "^3.0.0-pre.21"
+    "@polymer/font-roboto" "^3.0.0-pre.25"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.25"
+    "@polymer/iron-location" "^3.0.0-pre.25"
+    "@polymer/marked-element" "^3.0.0-pre.25"
     "@polymer/polymer" "^3.0.0"
-    "@polymer/prism-element" "^3.0.0-pre.21"
+    "@polymer/prism-element" "^3.0.0-pre.25"
 
 "@polymer/iron-doc-viewer@^3.0.0-pre.21":
   version "3.0.0-pre.21"
@@ -98,9 +98,9 @@
   dependencies:
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/iron-flex-layout@^3.0.0-pre.18", "@polymer/iron-flex-layout@^3.0.0-pre.21":
-  version "3.0.0-pre.21"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-flex-layout/-/iron-flex-layout-3.0.0-pre.21.tgz#064bccb85ec2091b66366970e8867d3de7bb273d"
+"@polymer/iron-flex-layout@^3.0.0-pre.18", "@polymer/iron-flex-layout@^3.0.0-pre.21", "@polymer/iron-flex-layout@^3.0.0-pre.25":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-flex-layout/-/iron-flex-layout-3.0.1.tgz#36f9e1a8eb792d279b2bc75d362628721ad37f0c"
   dependencies:
     "@polymer/polymer" "^3.0.0"
 
@@ -147,9 +147,9 @@
     "@polymer/iron-validatable-behavior" "^3.0.0-pre.21"
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/iron-location@^3.0.0-pre.21":
-  version "3.0.0-pre.21"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-location/-/iron-location-3.0.0-pre.21.tgz#0f4cd58a79e12767f2c993bbc0cdbd0487e78040"
+"@polymer/iron-location@^3.0.0-pre.21", "@polymer/iron-location@^3.0.0-pre.25":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-location/-/iron-location-3.0.2.tgz#7ca2df089c57deb8a6f54f5cc3722af0ff871441"
   dependencies:
     "@polymer/polymer" "^3.0.0"
 
@@ -193,9 +193,9 @@
     "@polymer/iron-meta" "^3.0.0-pre.21"
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/marked-element@^3.0.0-pre.21":
-  version "3.0.0-pre.21"
-  resolved "https://registry.yarnpkg.com/@polymer/marked-element/-/marked-element-3.0.0-pre.21.tgz#ce9d0c86e93c35226084ee736976bfd1005db9b0"
+"@polymer/marked-element@^3.0.0-pre.21", "@polymer/marked-element@^3.0.0-pre.25":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/marked-element/-/marked-element-3.0.1.tgz#56add62080404dea142c055977807ae9ca773a89"
   dependencies:
     "@polymer/polymer" "^3.0.0"
     marked "~0.3.9"
@@ -269,9 +269,9 @@
   dependencies:
     "@webcomponents/shadycss" "^1.2.0"
 
-"@polymer/prism-element@^3.0.0-pre.21":
-  version "3.0.0-pre.21"
-  resolved "https://registry.yarnpkg.com/@polymer/prism-element/-/prism-element-3.0.0-pre.21.tgz#221d742979a61b9167ccb88efe7e257803053623"
+"@polymer/prism-element@^3.0.0-pre.21", "@polymer/prism-element@^3.0.0-pre.25":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/prism-element/-/prism-element-3.0.1.tgz#b35d53eec9ecea5e5fec7c82c7e978e760e53501"
   dependencies:
     "@polymer/polymer" "^3.0.0"
     prismjs "^1.11.0"
