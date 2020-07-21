@@ -289,8 +289,8 @@
   resolved "https://registry.yarnpkg.com/@webcomponents/shadycss/-/shadycss-1.4.0.tgz#2b2b66443252f81d02ebb2dd139e4a717655bfa9"
 
 "@webcomponents/webcomponentsjs@^2.0.0":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@webcomponents/webcomponentsjs/-/webcomponentsjs-2.0.4.tgz#fe18c288f99b7103e9ae7a766020f9702cedcc08"
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/@webcomponents/webcomponentsjs/-/webcomponentsjs-2.4.4.tgz#14b7e78da47f8f0071ff96c35335b871534179bc"
 
 accessibility-developer-tools@^2.12.0:
   version "2.12.0"
